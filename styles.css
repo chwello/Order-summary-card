@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200;300;400;500;800&family=Red+Hat+Display:wght@500;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.container {
+  max-width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 450px;
+  border-radius: 15px;
+  box-shadow: 1px 15px 3px rgba(210, 209, 209, 0.1);
+  background-color: #ffffff;
+}
+
+img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+h1 {
+  margin: 32px 0;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sub p {
+  width: 80%;
+  color: hsl(0, 0%, 59%);
+}
+
+.year {
+  color: hsl(0, 0%, 59%);
+  
+}
+
+.annual-info {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px 20px;
+
+  width: 80%;
+  padding: 20px 0;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.annual-info img {
+  margin-left: 100px;
+  margin-right: 18px;
+}
+
+.annual-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-right: 130px;
+  
+
+}
+
+
+
+.annual-text {
+  padding-bottom: 7px;
+  min-height: 20px;
+  font-weight: 700;
+  font-size: .99em;
+  
+}
+
+.change {
+  margin-right: 100px;
+  margin-left: -40px;
+  border: none;
+  text-decoration-line: underline;
+  background: none;
+  font-size: 15px;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button.proceed {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border-radius: 10px;
+  padding: 15px 115px;
+  font-weight: 700;
+  font-size: 14px;
+  box-shadow: 1px 15px 10px rgba(15, 15, 15, 0.1);
+  cursor: pointer;
+}
+
+.cancel {
+  margin-top: 10px;
+  border: none;
+  background: none;
+  font-weight: 700;
+  color: hsl(0, 0%, 59%);
+  font-size: 15px;
+  margin-bottom: 55px;
+  cursor: pointer;
+}
